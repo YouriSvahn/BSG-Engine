@@ -4,6 +4,10 @@
     margin-right: -15px;
   }
 
+  .navbar-header {
+    margin-top: 0;
+  }
+
   .anchored-bottom {
     position: relative;
     width: auto;
@@ -29,6 +33,9 @@
 }
 .navbar-fixed-side .navbar-header {
   float: none;
+}
+.navbar-fixed-side .margin-fubar {
+  margin-top: 35px;
 }
 .navbar-fixed-side .navbar-brand {
   height: auto;

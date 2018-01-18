@@ -1,4 +1,5 @@
 <nav ng-controller="HeaderCtrl" class="navbar navbar-default navbar-fixed-side">
+  <div ng-if="isAuthenticated()"class="margin-fubar"></div>
   <div class="navbar-header">
     <button type="button" data-toggle="collapse" data-target="#navbar" class="navbar-toggle collapsed">
       <span class="sr-only">Toggle navigation</span>

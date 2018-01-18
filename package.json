@@ -1,9 +1,9 @@
 {
   "name": "late-queen",
   "version": "1.0.0",
-  "description": "My app description",
+  "description": "BSG Engine is the future of browser games.",
   "scripts": {
-    "start": "node server.js",
+    "start": "mongod && nodemon server.js",
     "test": "npm run test:server && npm run test:client",
     "test:client": "karma start --single-run",
     "test:server": "mocha --recursive"

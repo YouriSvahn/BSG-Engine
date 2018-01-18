@@ -42,7 +42,7 @@ footer {
 }
 
 .content {
-  padding-top: 30px;
+  padding-top: 60px;
 }
 
 /* Alerts
@@ -258,4 +258,43 @@ textarea {
   border-radius: 2px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
+}
+
+/* Fubar */
+/* ------------------------- */
+
+.fubar {
+  background-color: rgb(14, 57, 92);
+  color: #EEE;
+  position: absolute;
+  top: 0;
+  height: 34px;
+  width: 100%;
+  padding: 0 20px 0 20px;
+  z-index: 1000;
+}
+
+.resource-block {
+  text-align: center;
+  margin-top: 5px;
+  padding: 0 20px 0 20px;
+}
+
+.fubar .fa {
+  margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  .fubar {
+    position: relative;
+    left: 0;
+  }
+
+  .resource-block {
+    padding: 0;
+  }
+
+  .resource-name {
+    display: none;
+  }
 }
